@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["dom", "es2015", "es5", "es6", "es7"],
+    "baseUrl": "src"
+  },
+  "exclude": ["dist", "build", "node_modules"],
+  "types": ["material-ui", "react"],
+  "include": ["./src/**/*", "./typings/**/*"],
+  "filesGlob": ["**/*.ts", "**/*.tsx", "!node_modules/**"]
+}

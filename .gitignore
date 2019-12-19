@@ -1,0 +1,8 @@
+env
+.vscode
+**/htmlcov
+**/node_modules
+**/.env.*
+**/__snapshots__
+**/coverage
+**/dist
